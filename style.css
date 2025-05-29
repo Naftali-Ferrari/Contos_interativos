@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#cardscolor {
+    background-color:rgba(194, 150, 230, 0.596);
+}
+
+.card-img-top{
+    width: 423px;
+    height: 450px;
+    object-fit: cover;
+}
+
+#btn-color{
+    background-color:rgb(159, 106, 223) !important;
+    border: none;
+}
+
+#maincontainercards{
+    padding: 0;
+}
+
+#cardsbox:hover{
+     transform: scale(1.02);
+     cursor: pointer;
+     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.232);
+}
+
+#btn-color:hover {
+        box-shadow: 5px 6px rgba(0, 0, 0, 0.232);
+        background-color: rgba(164, 81, 242, 0.6); /* Leve mudança para "brilho" */
+        transform: scale(1.02);
+        cursor: pointer;
+}
